@@ -28,7 +28,7 @@ document.getElementById('price').innerHTML = '';
       else{
             document.getElementById('price').innerHTML = '';
       document.getElementById('price').innerHTML = "$9";
-  document.getElementById('no_seat').innerHTML = ';
+  document.getElementById('no_seat').innerHTML = '';
 
       }
 }
