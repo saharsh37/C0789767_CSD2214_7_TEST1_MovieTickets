@@ -20,7 +20,7 @@
       <div class="screen"></div>
 
       <table style="background:lightblue" class="table">
-           <tr style=" height:10px ; width:100px">
+           <tr style=" height:20px ; width:100px">
            
                <tr>
                    <td><input type="checkbox" class="ss"></td>
@@ -60,14 +60,16 @@
            
            </table>
     </div>
-
+<div  style="margin bottom: : 30px;">
+                  <p>movie selected</p><span id="movie_name"></span>
+                  <p>ticket price</p><span id="price"></span>
+                  
     <p class="text">
       You have selected <span id="count">0</span> seats for a price of $<span
         id="price"
         >0</span
       >
     </p>
-
-    <script src="script.js" type="text/javascript"></script>
+    <input type="submit" value="Confirm" onclick="return  get_movie()" style="margin-top: 15px;">
   </body>
 </html>
