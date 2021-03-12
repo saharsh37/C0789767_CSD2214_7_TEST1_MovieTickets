@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="m.css" />
     <title>Movie Seat Booking</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   </head>
   <body>
     <div class="movie-container">
@@ -19,7 +20,7 @@
 <div class="container">
       <div class="screen"></div>
 
-      <table style="background:lightblue" class="table">
+      <table style="background:white" class="table">
            <tr style=" height:20px ; width:100px">
            
                <tr>
@@ -61,15 +62,12 @@
            </table>
     </div>
 <div  style="margin bottom: : 30px;">
-                  <p>movie selected</p><span id="movie_name"></span>
-                  <p>ticket price</p><span id="price"></span>
-                  
-    <p class="text">
-      You have selected <span id="count">0</span> seats for a price of $<span
-        id="price"
-        >0</span
-      >
-    </p>
+                  <p>movie selected:<span id="movie_name">Dabbang($10)</span></p>
+                  <p>ticket price:<span id="price">10</span></p>
+                  <p>number of seat selected:<span id="no_seat">0</span></p>
+                  <p>total price:<span id="total">0</span></p>
+  <button value="seats">buy seats</button>
+  </div>
     <input type="submit" value="Confirm" onclick="return  get_movie()" style="margin-top: 15px;">
   </body>
 </html>
